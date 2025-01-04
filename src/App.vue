@@ -1,18 +1,18 @@
 <template>
   <ng-header></ng-header>
   <router-view></router-view>
-  <ng-footer></ng-footer>
+  <Footer></Footer>
 </template>
 
 <script>
 import NgHeader from "./components/nav/NgHeader.vue";
-import NgFooter from "./components/nav/NgFooter.vue";
+import Footer from "./components/nav/Footer.vue";
 
 export default {
   name: "App",
   components: {
     NgHeader,
-    NgFooter,
+    Footer,
   },
 };
 </script>
